@@ -1,28 +1,225 @@
 body {
-    background-color: #254974;
-    background-image: url('../img/fondoBreakingBad.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-p {
-    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+header,nav,main{
+    padding: 10px 20px;
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+header img {
+    display: flex;
+}
+header div {
     color: white;
+    text-shadow: 1px 3px 3px black
+}
+
+.fondo_header {
+    background-image: url('../img/BBFondoProtagonistas.webp');
+    background-attachment: fixed;
+    background-size: 1200px;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    text-align: right;
 }
 
 
-div {
-    border: 2px solid black;
-    background-color: #287929;
-    padding: 16px;
-    margin: 10px;
+nav {
+    background-image: url(../img/seamless.jpeg);
+    background-color: #283618 ;
 }
-.logo{
-    border: solid 1px green;
-    background-image: url('../img/seamless.jpeg');
-    border-radius: 10%;
-    background-color: black;
-    background-repeat:no-repeat;
-    box-shadow: 2px 2px 2px black;
-    background-size:110%;
+
+nav a {
     padding: 10px;
+    color: rgb(251, 251, 251);
+    text-decoration: none;
+    font-size: 14px;
+    display: inline;
+    font-weight: bold;
+
 }
+
+nav a:hover {
+    color: #283618;
+    background-color: #BC6C25;
+}
+
+main a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #606C38;
+}
+main a:hover {
+    color: #283618 ;
+    text-decoration: underline;
+}
+
+
+
+q {
+    font-style: italic;
+}
+strong {
+    font-weight: 600;
+    color : #BC6C25;
+}
+h1{
+    display: none;
+}
+
+h2 {
+    margin: 30px 0px 10px;
+    padding: 5px;
+    text-transform: capitalize;
+    background-color: #283618;
+    background-image: url(../img/bannerverdebb.jpg);
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    color: #606C38 ;
+    border: #283618 solid 2px;
+    -webkit-text-stroke: 1px #283618;
+    text-shadow: 0 0 5px white;
+    width: 970px;
+}
+
+h3 {
+
+    color: rgb(19, 59, 14);
+    padding: 15px;
+    margin: 10px;
+    max-width: 60%;
+}
+
+h4 {
+    font-size:medium;
+    margin: 0;
+    padding: 0;
+    color: #BC6C25 ;
+
+}
+h5{
+    margin: 0;
+    color: #283618 ;
+}
+
+.estiloFuenteLista{
+    margin: 25px;
+    
+}
+.estiloFuenteLista p {
+    color: #606C38;
+    font-size: small;
+    text-indent: 15px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 0;
+}
+blockquote {
+    color: wheat;
+    font-style: italic;
+}
+
+figure {
+    display: block;
+    background-color: #283618 ;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+    width: 250px;
+    border: thin solid #283618 ;
+}
+
+figure img {
+    width: 100%;
+}
+figcaption {
+    padding: 0px 10px 5px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 13px;
+}
+
+
+.derecha {
+    float: right;
+    margin: 5px 0px 10px 20px;
+}
+
+.izquierda {
+    float: left;
+    margin: 5px 20px 10px 0px;
+}
+.fondo_lista_reparto {
+    background: url(../img/bbchfondo.png) center right no-repeat ;
+}
+
+ul {
+    padding: 0;
+    list-style:none;
+    list-style-image: url('../img/bullet.png');
+    margin-left: 65px;
+
+}
+
+ul li {
+    padding: 5px 5px;
+    width: 45%;
+    margin: 0;
+}
+ul li:nth-child(2n) {
+    background-color: #DDA15E;
+}
+ul li:nth-child(2n -1) {
+    background-color: #FEFAE0 ;
+}
+
+
+footer {
+    background-image: url(../img/BBseam1.jpeg);
+    text-align: left;
+    max-width: 960px;
+    background-color: whitesmoke;
+   margin: auto;
+}
+footer div{
+
+    background-color: #fefae0aa;
+   margin-bottom: 5px;
+}
+footer p{
+    background-color: #fefae0aa;
+    font-weight: 600;
+    font-size: 14px;
+    display: inline;
+    color: black;
+    margin-bottom: 0;
+    border: 2px solid black;
+
+}
+footer img {
+    text-align: center;
+
+    margin-top: 15px;
+    margin-left: 15px;
+    border: 2px solid black;
+    border-radius: 50%;
+    
+}
+
+
+.footerclass {
+    margin-left: 10px;
+    display: inline;
+    max-width: 350px;
+    max-height: 350px;  
+}
+
+
+
+
