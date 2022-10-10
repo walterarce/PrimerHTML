@@ -1,5 +1,5 @@
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -20,7 +20,7 @@ header div {
 }
 
 .fondo_header {
-    background-image: url('../img/BBFondoProtagonistas.webp');
+    background-image: url('../img/bannerfondo.jpg');
     background-attachment: fixed;
     background-size: 1200px;
     min-height: 300px;
@@ -49,7 +49,9 @@ nav a:hover {
     color: #283618;
     background-color: #BC6C25;
 }
-
+.navstyle {
+    text-align: center;
+}
 main a{
     font-weight: 600;
     text-decoration: none;
@@ -60,7 +62,10 @@ main a:hover {
     text-decoration: underline;
 }
 
-
+p{
+    color:#606C38;
+    text-indent: 35px;
+}
 
 q {
     font-style: italic;
@@ -69,12 +74,17 @@ strong {
     font-weight: 600;
     color : #BC6C25;
 }
+em {
+    color : #737d4f;
+    font-style: italic;
+    font-weight: 700;
+}
 h1{
     display: none;
 }
 
 h2 {
-    margin: 30px 0px 10px;
+    margin: 35px 0px 10px ;
     padding: 5px;
     text-transform: capitalize;
     background-color: #283618;
@@ -82,10 +92,9 @@ h2 {
     background-size: cover;
     
     background-repeat: no-repeat;
-    color: #606C38 ;
+    color: white;
     border: #283618 solid 2px;
-    -webkit-text-stroke: 1px #283618;
-    text-shadow: 0 0 5px white;
+
     width: 970px;
 }
 
@@ -117,7 +126,7 @@ h5{
     color: #606C38;
     font-size: small;
     text-indent: 15px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin-top: 0;
 }
 blockquote {
@@ -156,7 +165,11 @@ figcaption {
     margin: 5px 20px 10px 0px;
 }
 .fondo_lista_reparto {
-    background: url(../img/bbchfondo.png) center right no-repeat ;
+    background-image: url(../img/bbchfondo.png);
+    background-position:  center;
+    background-repeat: no-repeat;   
+    background-attachment:fixed;
+    background-position-x: 70%;
 }
 
 ul {
@@ -181,30 +194,29 @@ ul li:nth-child(2n -1) {
 
 
 footer {
-    background-image: url(../img/BBseam1.jpeg);
+    background-image: url(../img/bbseam1.jpeg);
     text-align: left;
     max-width: 960px;
     background-color: whitesmoke;
-   margin: auto;
+    margin: auto;
 }
 footer div{
+    align-items: flex-start;
+    display: inline-block;
+    text-align: center;
 
-    background-color: #fefae0aa;
-   margin-bottom: 5px;
+
 }
 footer p{
     background-color: #fefae0aa;
     font-weight: 600;
     font-size: 14px;
-    display: inline;
     color: black;
-    margin-bottom: 0;
-    border: 2px solid black;
-
+    margin: auto;
 }
 footer img {
     text-align: center;
-
+    display: inline;
     margin-top: 15px;
     margin-left: 15px;
     border: 2px solid black;
@@ -219,7 +231,33 @@ footer img {
     max-width: 350px;
     max-height: 350px;  
 }
+#analisiswalter h2{
+    padding: 20px;
+    background-image: url('../img/fondowalter.png');
+    background-size: 260px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#critica h2 {
+    padding: 20px;
+    background-image: url('../img/bannercritica.jpg');
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
 
+#reparto h2{
+    padding: 20px;
+    background-image: url('../img/fonditoli.png');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
 
-
-
+#curiosidades h2{
+    padding: 20px;
+    background-image: url('../img/curiosidad.png');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
