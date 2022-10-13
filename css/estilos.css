@@ -5,7 +5,7 @@ body {
 }
 
 
-header,nav,main{
+header, nav, main {
     padding: 10px 20px;
     max-width: 960px;
     margin: 0px auto;
@@ -14,6 +14,7 @@ header,nav,main{
 header img {
     display: flex;
 }
+
 header div {
     color: white;
     text-shadow: 1px 3px 3px black
@@ -32,7 +33,7 @@ header div {
 
 nav {
     background-image: url(../img/seamless.jpeg);
-    background-color: #283618 ;
+    background-color: #283618;
 }
 
 nav a {
@@ -49,53 +50,60 @@ nav a:hover {
     color: #283618;
     background-color: #BC6C25;
 }
+
 .navstyle {
     text-align: center;
 }
-main a{
+
+main a {
     font-weight: 600;
     text-decoration: none;
     color: #606C38;
 }
+
 main a:hover {
-    color: #283618 ;
+    color: #283618;
     text-decoration: underline;
 }
 
-p{
-    color:#606C38;
+p {
+    color: #606C38;
     text-indent: 35px;
 }
 
 q {
     font-style: italic;
 }
+
 strong {
     font-weight: 600;
-    color : #BC6C25;
+    color: #BC6C25;
 }
+
 em {
-    color : #737d4f;
+    color: #737d4f;
     font-style: italic;
     font-weight: 700;
 }
-h1{
+
+h1 {
     display: none;
 }
 
 h2 {
-    margin: 35px 0px 10px ;
+    margin: 35px 0px 10px;
     padding: 5px;
     text-transform: capitalize;
     background-color: #283618;
-    background-image: url(../img/bannerverdebb.jpg);
+    background-image: url(../img/seambackwalter.jpg);
     background-size: cover;
-    
+
     background-repeat: no-repeat;
     color: white;
     border: #283618 solid 2px;
+    padding: 20px;
+    max-width: 960px;
 
-    width: 970px;
 }
 
 h3 {
@@ -107,21 +115,23 @@ h3 {
 }
 
 h4 {
-    font-size:medium;
+    font-size: medium;
     margin: 0;
     padding: 0;
-    color: #BC6C25 ;
+    color: #BC6C25;
 
 }
-h5{
+
+h5 {
     margin: 0;
-    color: #283618 ;
+    color: #283618;
 }
 
-.estiloFuenteLista{
+.estiloFuenteLista {
     margin: 25px;
-    
+
 }
+
 .estiloFuenteLista p {
     color: #606C38;
     font-size: small;
@@ -129,6 +139,7 @@ h5{
     font-family: 'Ubuntu', sans-serif;
     margin-top: 0;
 }
+
 blockquote {
     color: wheat;
     font-style: italic;
@@ -136,17 +147,18 @@ blockquote {
 
 figure {
     display: block;
-    background-color: #283618 ;
+    background-color: #283618;
     border-radius: 10px;
     overflow: hidden;
     margin: auto;
     width: 250px;
-    border: thin solid #283618 ;
+    border: thin solid #283618;
 }
 
 figure img {
     width: 100%;
 }
+
 figcaption {
     padding: 0px 10px 5px;
     text-align: center;
@@ -164,17 +176,18 @@ figcaption {
     float: left;
     margin: 5px 20px 10px 0px;
 }
+
 .fondo_lista_reparto {
-    background-image: url(../img/bbchfondo.png);
-    background-position:  center;
-    background-repeat: no-repeat;   
-    background-attachment:fixed;
+    background-image: url(../img/bbchfondo.png), url(../img/seambackwalter.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position-x: 70%;
 }
 
 ul {
     padding: 0;
-    list-style:none;
+    list-style: none;
     list-style-image: url('../img/bullet.png');
     margin-left: 65px;
 
@@ -185,11 +198,13 @@ ul li {
     width: 45%;
     margin: 0;
 }
+
 ul li:nth-child(2n) {
     background-color: #DDA15E;
 }
+
 ul li:nth-child(2n -1) {
-    background-color: #FEFAE0 ;
+    background-color: #FEFAE0;
 }
 
 
@@ -199,29 +214,33 @@ footer {
     max-width: 960px;
     background-color: whitesmoke;
     margin: auto;
-}
-footer div{
-    align-items: flex-start;
-    display: inline-block;
     text-align: center;
 
+}
+
+footer div {
+    align-items: flex-start;
+    display: inline-block;
 
 }
-footer p{
+
+footer p {
     background-color: #fefae0aa;
     font-weight: 600;
     font-size: 14px;
     color: black;
-    margin: auto;
+    background-color: #BC6C25;
+
 }
+
 footer img {
     text-align: center;
     display: inline;
     margin-top: 15px;
     margin-left: 15px;
     border: 2px solid black;
-    border-radius: 50%;
-    
+    border-radius: 2%;
+
 }
 
 
@@ -229,15 +248,17 @@ footer img {
     margin-left: 10px;
     display: inline;
     max-width: 350px;
-    max-height: 350px;  
+    max-height: 350px;
 }
-#analisiswalter h2{
+
+#analisiswalter h2 {
     padding: 20px;
     background-image: url('../img/fondowalter.png');
     background-size: 260px;
     background-repeat: no-repeat;
     background-position: right;
 }
+
 #critica h2 {
     padding: 20px;
     background-image: url('../img/bannercritica.jpg');
@@ -246,18 +267,58 @@ footer img {
     background-position: right;
 }
 
-#reparto h2{
+#reparto h2 {
     padding: 20px;
-    background-image: url('../img/fonditoli.png');
+    background-image: url('../img/fonditoli.png'), url(../img/seambackwalter.jpg);
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: bottom right;
 }
 
-#curiosidades h2{
+#curiosidades h2 {
     padding: 20px;
     background-image: url('../img/curiosidad.png');
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: bottom right;
+}
+
+.tablagen {
+    display: table;
+    margin: auto;
+    color: #DDA15E;
+    font-weight: 600;
+}
+
+.fila {
+    display: table-row;
+
+}
+
+.col {
+    display: table-cell;
+    padding: 12px;
+    background: #606C38;
+}
+
+#tablapremios {
+    text-align: center;
+}
+
+.tablafooter {
+    display: table;
+    color: #DDA15E;
+    font-weight: 600;
+}
+
+.filafooter {
+    display: table-row;
+    text-align: left;
+
+}
+
+.colfooter {
+    display: table-cell;
+    padding: 12px;
+    background: #606C38;
 }
