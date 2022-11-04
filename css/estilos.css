@@ -53,8 +53,12 @@ nav a:hover {
 
 .navstyle {
     text-align: center;
+    
 }
-
+.stage {
+    color: #283618;
+    background-color: #BC6C25;
+}
 main a {
     font-weight: 600;
     text-decoration: none;
@@ -320,4 +324,18 @@ footer img {
     display: table-cell;
     padding: 12px;
     background: #606C38;
+}
+iframe {
+    width: 100%;
+    border: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.contenedorcine{
+    background-color:red;
+width: 50%;
+    border-color: blue;
+    text-align: center;
+    margin-bottom:15px;
+    aspect-ratio: 16 /9;
 }
