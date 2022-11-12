@@ -12,16 +12,23 @@ header, nav, main {
 }
 
 header img {
-    display: flex;
+   display: inline-block;
 }
-
+header {
+    display: flex;
+    justify-content: center;
+}
 header div {
     color: white;
     text-shadow: 1px 3px 3px black
 }
 
+.headerdiv{
+    margin-left: 40%;
+}
+
 .fondo_header {
-    background-image: url('../img/bannerfondo.jpg');
+    background-image: url('../img/bannerfondo960.jpg');
     background-attachment: fixed;
     background-size: 1200px;
     min-height: 300px;
@@ -37,23 +44,24 @@ nav {
 }
 
 nav a {
-    padding: 10px;
+    padding: 4px;
+    margin: 0;
     color: rgb(251, 251, 251);
     text-decoration: none;
     font-size: 14px;
     display: inline;
     font-weight: bold;
-
+    border-radius: 2px;
 }
 
 nav a:hover {
     color: #283618;
     background-color: #BC6C25;
+    border-radius: 2px;
 }
 
 .navstyle {
     text-align: center;
-    
 }
 .stage {
     color: #283618;
@@ -133,12 +141,13 @@ h5 {
 }
 
 .estiloFuenteLista {
-    margin: 25px;
+    margin: 20px;
 
 }
 
 .estiloFuenteLista p {
     color: #606C38;
+    line-height: 0.8rem;
     font-size: small;
     text-indent: 15px;
     font-family: 'Ubuntu', sans-serif;
@@ -188,6 +197,7 @@ figcaption {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-x: 70%;
+    background-position-y: 135%;
 }
 
 ul {
