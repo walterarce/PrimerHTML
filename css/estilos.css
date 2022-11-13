@@ -404,8 +404,9 @@ input {
     font-family: 'Ubuntu', sans-serif;
     background-color: #737d4f;
     padding: 2px;
+    width: 95%;
     margin-left: 15px;
-    text-align: center;
+
     margin-bottom: 10px;
 }
 #submit {
@@ -415,13 +416,20 @@ input {
     padding: 5px;
     margin: 0 10px 20px 0;
     border-radius: 8px 8px 8px 8px;
+    width: 20%;
+    text-align: center;
+}
+#nacimiento {
+    width: 30%;
 }
 label {
     margin-left:12px;
 }
 .cajaInputs {
+    display: block;
+   
     font-family: 'Ubuntu', sans-serif;
     margin-bottom: 10px;
     padding: 10px;
-    text-align: center;
+  
 }
