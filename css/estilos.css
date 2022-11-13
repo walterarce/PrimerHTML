@@ -1,9 +1,9 @@
+
 body {
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
     padding: 0;
 }
-
 
 header, nav, main {
     padding: 10px 20px;
@@ -30,17 +30,16 @@ header div {
 .fondo_header {
     background-image: url('../img/bannerfondo960.jpg');
     background-attachment: fixed;
-    background-size: 1200px;
     min-height: 300px;
     background-repeat: no-repeat;
     background-position-x: center;
-    text-align: right;
 }
 
 
 nav {
     background-image: url(../img/seamless.jpeg);
     background-color: #283618;
+    max-width: 920px;
     display: flex;
 }
 
@@ -107,10 +106,7 @@ h2 {
     padding: 5px;
     text-transform: capitalize;
     background-color: #283618;
-    background-image: url(../img/seambackwalter.jpg);
     background-size: cover;
-
-    background-repeat: no-repeat;
     color: white;
     border: #283618 solid 2px;
     padding: 20px;
@@ -126,18 +122,18 @@ h3 {
     max-width: 60%;
 }
 
-h4 {
+/* h4 {
     font-size: medium;
     margin: 0;
     padding: 0;
     color: #BC6C25;
 
-}
+} */
 
-h5 {
+/* h5 {
     margin: 0;
     color: #283618;
-}
+} */
 
 .estiloFuenteLista {
     margin: 20px;
@@ -228,7 +224,7 @@ footer {
     max-width: 960px;
     background-color: whitesmoke;
     margin: auto;
-    text-align: center;
+
 
 }
 
@@ -248,11 +244,8 @@ footer p {
 }
 
 footer img {
-    text-align: center;
-    display: inline;
-    margin-top: 15px;
-    margin-left: 15px;
-    border: 2px solid black;
+    margin-top: 5px;
+    margin-left: 5px;
     border-radius: 50%;
 }
 
@@ -287,6 +280,18 @@ footer img {
     background-repeat: no-repeat;
     background-position: bottom right;
 }
+#produccion h2 {
+    padding: 20px;
+    background-image: url('../img/fonditoli.png'), url(../img/seambackwalter.jpg);
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+#produccion img{
+    border: 2px solid black;
+    display: flex;
+    
+}
 
 #curiosidades h2 {
     padding: 20px;
@@ -318,20 +323,10 @@ footer img {
     text-align: center;
 }
 
-.tablafooter {
-    display: table;
-    color: #DDA15E;
-    font-weight: 600;
-}
 
-.filafooter {
-    display: table-row;
-    text-align: left;
-
-}
 
 .colfooter {
-    display: table-cell;
+    display: flex;
     padding: 12px;
     background: #606C38;
 }
@@ -377,4 +372,56 @@ tool-tip {
 :has(> tool-tip):hover tool-tip {
     opacity: 1;
 }
+.estilofooter{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 
+}
+.estiloform {
+    display: flex;
+    justify-content: center;
+}
+form {
+    background-color: #283618;
+    min-width: 640px;
+    max-width: 100%;
+    color: whitesmoke;
+}
+textarea {
+    background-color: #737d4f;
+    min-height: 200px;
+    text-align: left;
+    padding: 0.5em;
+    min-width: 95%;
+    font-size: 1em;
+    margin-left: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+}
+input {
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #737d4f;
+    padding: 2px;
+    margin-left: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#submit {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0 10px 20px 0;
+    border-radius: 8px 8px 8px 8px;
+}
+label {
+    margin-left:12px;
+}
+.cajaInputs {
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+}

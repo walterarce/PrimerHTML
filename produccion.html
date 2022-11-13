@@ -49,10 +49,12 @@
                 <h2>Producción</h2>
                 <h3>Concepción</h3>
                 <div class="fondo_concepcion">
-                    <p><figure class=" izquierda">
-                                <img src="img/bryandonnaaaron.jpeg" alt="I am the one who knocks">
-                                <figcaption>I am the one who knocks</figcaption>
-                            </figure><span lang="en">Breaking Bad</span> fue creada por <strong lang="en">Vince Gilligan</strong> ,
+                    <figure class=" izquierda">
+                        <img src="img/bryandonnaaaron.jpeg" alt="I am the one who knocks">
+                        <figcaption>I am the one who knocks</figcaption>
+                    </figure>
+                    
+                    <p><span lang="en">Breaking Bad</span> fue creada por <strong lang="en">Vince Gilligan</strong> ,
                         quien previamente había trabajado como guionista en la serie
                         <span lang="en">The X Files, de Fox. Gilligan</span> quería crear una serie en la que el
                         protagonista se convirtiera en el
@@ -86,10 +88,7 @@
                                     aceptada por una
                                     cadena televisiva debido a que la historia es tan extraña y oscura</em></strong>
                         </q> .
-                        A  <figure class="derecha">
-                            <img src="img/significado.jpg" alt="I am the one who knocks">
-                            <figcaption>I am the one who knocks</figcaption>
-                        </figure>
+                        A  
                         medida que fue transcurriendo la serie,<span lang="en">Gilligan</span> y los demás guionistas de
                         <span lang="en">Breaking Bad</span> fueron
                         convirtiendo a <span lang="en">Walter</span> en una persona cada vez más indolente.<span
@@ -115,6 +114,7 @@
                         más tarde dijo que no habría continuado con la idea si hubiese conocido<span
                             lang="en">Weeds</span>
                         antes.
+                        <div><img src="img/scarface.jpg" alt="scarface"></div> 
                     </p>
                 </div>
             </div>
@@ -124,33 +124,42 @@
     </main>
     <footer>
 
-        <img src="img/fotowalterarce.jpg" alt="foto alumno Arce">
-        <div>
-            <div class="tablafooter">
-                <div class="filafooter">
-                    <div class="colfooter">Nombre:</div>
-                    <div class="colfooter">Walter Javier Arce</div>
-                </div>
-                <div class="filafooter">
-                    <div class="colfooter">Nacimiento:</div>
-                    <div class="colfooter">01/04/1976</div>
-                </div>
-                <div class="filafooter">
-                    <div class="colfooter">Materia:</div>
-                    <div class="colfooter">Maquetado Web</div>
-                </div>
-                <div class="filafooter">
-                    <div class="colfooter">Profesor:</div>
-                    <div class="colfooter">JORGE PÉREZ</div>
-
-                </div>
-                <div class="filafooter">
-                    <div class="colfooter">Email:</div>
-                    <div class="colfooter">walter.arce@davinci.edu.ar</div>
-
-                </div>
+        
+        <div class="estilofooter">
+            <div><img src="img/fotowalterarce.jpg" alt="foto alumno Arce"></div> 
+           
+            <div>
+                <div class="colfooter">Nombre:</div>
+                <div class="colfooter">Walter Javier Arce</div>
+                <div class="colfooter">Nacimiento:</div>
+                <div class="colfooter">01/04/1976</div>
+                <div class="colfooter">Materia:</div>
+                <div class="colfooter">Maquetado Web</div>
+                <div class="colfooter">Profesor:</div>
+                <div class="colfooter">JORGE PÉREZ</div>
+                <div class="colfooter">Email:</div>
+                <div class="colfooter">walter.arce@davinci.edu.ar</div>
             </div>
         </div>
+        <hr>
+        <div class="estiloform">
+            <form action="index.html" method="post">
+                <div class="cajaInputs">
+                    <label for="nombre">Nombre:</label><br> 
+                    <input type="text" name="nombre" id="nombre"><br>
+                    <label for="email">Email:</label><br> 
+                    <input type="email" name="email" id="email"><br>
+                    <label for="consulta">Consulta:</label><br> 
+                    <textarea name="consulta" id="consulta" maxlength="200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, est! Asperiores animi nam ipsa neque earum sunt nemo sit sed tenetur quas fugit, deleniti maiores ut consectetur, libero beatae accusantium!</textarea> <br>
+                    <label for="nacimiento">Fecha Nacimiento:</label><br>
+                    <input type="date" name="nacimiento" id="nacimiento" min="1960-01" max="2005-01"><br>
+                    <label for="novedades">Desea recibir novedades?:</label><br> 
+                    <input type="checkbox" name="novedades" id="novedades"><br>
+                    <input type="submit" value="Enviar" id="submit" name="submit">
+                </div>
+                </form>
+        </div>
+      
     </footer>
 </body>
 
