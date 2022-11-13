@@ -41,28 +41,27 @@ header div {
 nav {
     background-image: url(../img/seamless.jpeg);
     background-color: #283618;
+    display: flex;
 }
 
 nav a {
-    padding: 4px;
+    padding: 8px;
     margin: 0;
     color: rgb(251, 251, 251);
     text-decoration: none;
     font-size: 14px;
     display: inline;
     font-weight: bold;
-    border-radius: 2px;
+
 }
 
 nav a:hover {
     color: #283618;
     background-color: #BC6C25;
-    border-radius: 2px;
+
 }
 
-.navstyle {
-    text-align: center;
-}
+
 .stage {
     color: #283618;
     background-color: #BC6C25;
@@ -336,10 +335,7 @@ footer img {
     padding: 12px;
     background: #606C38;
 }
-iframe {
-    width: 100%;
-    border: none;
-}
+
 .contenedorcine{
     aspect-ratio: 16 /9;
 }
@@ -381,3 +377,4 @@ tool-tip {
 :has(> tool-tip):hover tool-tip {
     opacity: 1;
 }
+
