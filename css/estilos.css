@@ -94,6 +94,7 @@ strong {
 em {
     color: #737d4f;
     font-style: italic;
+    line-height: 2rem;
     font-weight: 700;
 }
 
@@ -160,7 +161,7 @@ figure {
     border-radius: 10px;
     overflow: hidden;
     margin: auto;
-    width: 250px;
+    max-width: 250px;
     border: thin solid #283618;
 }
 
@@ -325,26 +326,38 @@ footer img {
 }
 
 
-
-.colfooter {
+.tituloFooter {
+    font-weight: 700;
+    color: #45511c;
+    text-shadow:1px 1px black;
+    padding-left: 10px;
+}
+.valorFooter {
+    font-family: 'Ubuntu', sans-serif;
     display: flex;
     padding: 12px;
-    background: #606C38;
+    font-size: small;
+    width: 600px;
+    color: #9c8a11;
+    text-align: center;
+    text-shadow:1px 1px black;
 
 }
-#datos {
- background-color: rebeccapurple;
-}
+
 .contenedorcine{
-    aspect-ratio: 16 /9;
+    aspect-ratio: 16/9;
 }
 .caja_multimedia{
-    width: 50%;
+    width: 100%;
     background-color: #283618;
     text-align: center;
     border-radius: 10px;
     padding: 10px;
-    margin: auto;
+    
+}
+.caja_multimedia iframe {
+    border: #283618 10px solid;
+    background-color: rebeccapurple;
 }
 .columnaizq{
     display: flex;
@@ -378,7 +391,6 @@ tool-tip {
 }
 .estilofooter{
     display: flex;
-    justify-content:left;
     flex-direction: row;
 
 }
@@ -402,6 +414,7 @@ textarea {
     margin-left: 10px;
     font-family: 'Ubuntu', sans-serif;
     display: flex;
+    color: #054615;
 }
 input {
     display: flex;
@@ -410,7 +423,7 @@ input {
     padding: 2px;
     width: 95%;
     margin-left: 15px;
-
+    color: #054615;
     margin-bottom: 10px;
 }
 #submit {
@@ -436,4 +449,41 @@ label {
     margin-bottom: 10px;
     padding: 10px;
   
+}
+.estiloDatos{
+    background: #606C38;
+   display: flexbox;
+   flex-direction: column;
+   width: 50%;
+   margin-left: 50px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   box-shadow: 5px 5px 15px rgb(0, 0, 0);
+}
+.flexbox-container {
+        display: -ms-flex;
+        display: -webkit-flex;
+        display: flex;
+        width: 50%;
+        background: #606C38;
+        margin-left: 50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        box-shadow: 5px 5px 15px rgb(0, 0, 0);
+    }
+
+.flexbox-container > div {
+    width: 40%;
+    padding: 10px;   
+}
+
+.flexbox-container > div:first-child {
+    margin-right: 20px;
+}
+
+.estiloredessociales {
+    text-align: center;
+    font-size: large;
+    color: #9c8a11;
+    text-shadow:1px 1px black;
 }
