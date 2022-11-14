@@ -246,6 +246,7 @@ footer p {
 footer img {
     margin-top: 5px;
     margin-left: 5px;
+    margin-right: 20px;
     border-radius: 50%;
 }
 
@@ -329,8 +330,11 @@ footer img {
     display: flex;
     padding: 12px;
     background: #606C38;
-}
 
+}
+#datos {
+ background-color: rebeccapurple;
+}
 .contenedorcine{
     aspect-ratio: 16 /9;
 }
@@ -374,7 +378,7 @@ tool-tip {
 }
 .estilofooter{
     display: flex;
-    justify-content: space-between;
+    justify-content:left;
     flex-direction: row;
 
 }
@@ -390,7 +394,7 @@ form {
 }
 textarea {
     background-color: #737d4f;
-    min-height: 200px;
+    min-height: 100px;
     text-align: left;
     padding: 0.5em;
     min-width: 95%;
