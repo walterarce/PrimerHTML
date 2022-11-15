@@ -4,6 +4,9 @@ body {
     margin: 0;
     padding: 0;
 }
+body:hover .block1 {
+    background-color: red;
+}
 
 header, nav, main {
     padding: 10px 20px;
@@ -112,7 +115,8 @@ h2 {
     border: #283618 solid 2px;
     padding: 20px;
     max-width: 960px;
-
+    height: 40px;
+    border-radius: 10px;
 }
 
 h3 {
@@ -123,18 +127,18 @@ h3 {
     max-width: 60%;
 }
 
-/* h4 {
+h4 {
     font-size: medium;
     margin: 0;
     padding: 0;
     color: #BC6C25;
 
-} */
+} 
 
-/* h5 {
+h5 {
     margin: 0;
     color: #283618;
-} */
+}
 
 .estiloFuenteLista {
     margin: 20px;
@@ -347,6 +351,10 @@ footer img {
 .contenedorcine{
     aspect-ratio: 16/9;
 }
+.flexcinema {
+    display: flex;
+    justify-content: space-between;
+}
 .caja_multimedia{
     width: 100%;
     background-color: #283618;
@@ -355,9 +363,20 @@ footer img {
     padding: 10px;
     
 }
+.flexintro {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    margin-top: 0;
+}
+.flexintro #introtheme {
+    top: 0;
+    
+    box-shadow: 5px 5px 55px rgb(145, 20, 20);
+}
+
 .caja_multimedia iframe {
     border: #283618 10px solid;
-    background-color: rebeccapurple;
 }
 .columnaizq{
     display: flex;
@@ -374,20 +393,25 @@ tool-tip {
     position: absolute;
     z-index: 1;
     width: 100%;
+    background-color: #054615;
     background-attachment: fixed;
     transition: opacity .3s ease;
     border-radius: 8px;
-    top:10%;
+    top:0;
     border: #283618 2px solid;
     left: 0;
-    margin-left: 0;
+    margin-left: 107%;
     opacity: 0;
 }
 :has(> tool-tip) {
     position: relative;
+   
 }
 :has(> tool-tip):hover tool-tip {
     opacity: 1;
+    background-color: #054615;
+    margin-left: 107%;
+    right:-200px
 }
 .estilofooter{
     display: flex;
@@ -485,5 +509,9 @@ label {
     text-align: center;
     font-size: large;
     color: #9c8a11;
+    text-shadow:1px 1px black;
+}
+.estiloRegistro {
+    font-family: 'Bangers', cursive;
     text-shadow:1px 1px black;
 }
