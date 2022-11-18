@@ -13,8 +13,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap"
         rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 
 </head>
 
@@ -34,14 +34,14 @@
 
     <div class="navstyle">
         <nav>
-           <div><a href="index.html" >Introducción</a></div> 
-           <div><a href="reparto.html">Reparto</a></div>
-           <div><a href="produccion.html">Producción</a></div>
-           <div><a href="analisiswalter.html">Análisis del personaje</a></div>
-           <div><a href="critica.html">Crítica </a></div>
-           <div><a href="curiosidades.html">Curiosidades</a></div>
-           <div><a href="bettercallsaul.html" lang="en">Better Call Saul</a></div>
-           <div><a href="#" class="stage">Registrate!</a></div>
+            <div><a href="index.html">Introducción</a></div>
+            <div><a href="reparto.html">Reparto</a></div>
+            <div><a href="produccion.html">Producción</a></div>
+            <div><a href="analisiswalter.html">Análisis del personaje</a></div>
+            <div><a href="critica.html">Crítica </a></div>
+            <div><a href="curiosidades.html">Curiosidades</a></div>
+            <div><a href="bettercallsaul.html" lang="en">Better Call Saul</a></div>
+            <div><a href="#" class="stage">Registrate!</a></div>
         </nav>
     </div>
 
@@ -49,26 +49,55 @@
         <h2 class="estiloRegistro">Si te gusto, registrate y te mantenemos actualizado!</h2>
         <div class="estiloform">
             <form action="index.html" method="post">
-                <div class="cajaInputs">
-                    <label for="nombre">Nombre:</label><br> 
-                    <input type="text" name="nombre" id="nombre"><br>
-                    <label for="email">Email:</label><br> 
-                    <input type="email" name="email" id="email"><br>
-                    <label for="consulta">Consulta:</label><br> 
-                    <textarea name="consulta" id="consulta" maxlength="200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, est! Asperiores animi nam ipsa neque earum sunt nemo sit sed tenetur quas fugit, deleniti maiores ut consectetur, libero beatae accusantium!</textarea> <br>
-                    <label for="nacimiento">Fecha Nacimiento:</label><br>
-                    <input type="date" name="nacimiento" id="nacimiento" min="1960-01" max="2005-01"><br>
-                    <label for="novedades">Desea recibir novedades?:</label><br> 
-                    <input type="checkbox" name="novedades" id="novedades"><br>
-                    <input type="submit" value="Enviar" id="submit" name="submit">
+                <div >
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Su Nombre">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Su email">
+                    </div>
+                    <div>
+                        <label for="consulta">Consulta:</label>
+                        <textarea name="consulta" id="consulta"
+                            maxlength="200" placeholder="Sus comentarios de registro"></textarea>
+                    </div>
+                    <div>
+                        <label for="nacimiento">Fecha Nacimiento:</label>
+                        <input type="date" name="nacimiento" id="nacimiento" name="nacimiento" min="1960-01"
+                            max="2005-01">
+                    </div>
+                    <fieldset class="inline-fielset">
+                        <legend>Personajes Preferidos</legend>
+             
+                            <img src="img/walterwhite128.jpeg" alt="Walter White">
+                            <input type="checkbox" name="walterwhite" id="walterwhite" value="walter">
+                            <label for="walterwhite">Walter White</label>
+
+                            <img src="img/aaronpaul128.jpg" alt="imagen Aaron">
+                            <input type="checkbox" name="jesse" id="jesse" value="jesse">
+                            <label for="jesse">Jesse Pikman</label>
+
+                            <img src="img/annagunn128.jpeg" alt="Skyler White">
+                            <input type="checkbox" name="skylerwhite" id="skylerwhite" value="skylerwhite">
+                            <label for="skylerwhite">Skyler White</label>
+                     
+                    </fieldset>
+
+                    
+                    <div>
+                        <input type="submit" value="Enviar" id="submit" name="submit">
+                    </div>
+
                 </div>
-                </form>
+            </form>
         </div>
 
     </main>
     <footer>
         <div class="estilofooter">
-            <div><img src="img/fotowalterarce.jpg" alt="foto alumno Arce"></div> 
+            <div><img src="img/fotowalterarce.jpg" alt="foto alumno Arce"></div>
             <div class="flexbox-container">
                 <div>
                     <div class="tituloFooter">Nombre:</div>
@@ -83,16 +112,13 @@
                     <div class="valorFooter">walter.arce@davinci.edu.ar</div>
                 </div>
                 <div>
-                    <div class="estiloredessociales"><img src="img/logoinsta.png" alt="foto alumno Arce">@walterioarce</div>
+                    <div class="estiloredessociales"><img src="img/logoinsta.png" alt="foto alumno Arce">@walterioarce
+                    </div>
                 </div>
             </div>
         </div>
-       
+
     </footer>
 </body>
 
 </html>
-
-
-
-

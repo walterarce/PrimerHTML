@@ -1,32 +1,36 @@
-
 body {
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
     padding: 0;
 }
+
 body:hover .block1 {
     background-color: red;
 }
 
-header, nav, main {
+header,
+nav,
+main {
     padding: 10px 20px;
     max-width: 960px;
     margin: 0px auto;
 }
 
 header img {
-   display: inline-block;
+    display: inline-block;
 }
+
 header {
     display: flex;
     justify-content: center;
 }
+
 header div {
     color: white;
     text-shadow: 1px 3px 3px black
 }
 
-.headerdiv{
+.headerdiv {
     margin-left: 40%;
 }
 
@@ -68,6 +72,7 @@ nav a:hover {
     color: #283618;
     background-color: #BC6C25;
 }
+
 main a {
     font-weight: 600;
     text-decoration: none;
@@ -109,7 +114,7 @@ h2 {
     margin: 35px 0px 10px;
     padding: 5px;
     text-transform: capitalize;
-    background-color: #283618;
+    background:linear-gradient(94deg,#606C38,#606C38,rgb(59 130 79),rgb(60 133 81)) ;
     background-size: cover;
     color: white;
     border: #283618 solid 2px;
@@ -117,6 +122,7 @@ h2 {
     max-width: 960px;
     height: 40px;
     border-radius: 10px;
+    margin-top: 0;
 }
 
 h3 {
@@ -133,7 +139,7 @@ h4 {
     padding: 0;
     color: #BC6C25;
 
-} 
+}
 
 h5 {
     margin: 0;
@@ -166,7 +172,7 @@ figure {
     overflow: hidden;
     margin: auto;
     max-width: 250px;
-    border: thin solid #283618;
+    border: 2px solid green;
 }
 
 figure img {
@@ -265,8 +271,9 @@ footer img {
 
 #analisiswalter h2 {
     padding: 20px;
+   
     background-image: url('../img/fondowalter.png');
-    background-size: 260px;
+
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -281,11 +288,13 @@ footer img {
 
 #reparto h2 {
     padding: 20px;
+    
     background-image: url('../img/fonditoli.png'), url(../img/seambackwalter.jpg);
-    background-size: 70px;
+    background:linear-gradient(94deg,#606C38,#606C38,rgb(59 130 79),rgb(60 133 81)) ;
     background-repeat: no-repeat;
     background-position: bottom right;
 }
+
 #produccion h2 {
     padding: 20px;
     background-image: url('../img/fonditoli.png'), url(../img/seambackwalter.jpg);
@@ -293,16 +302,17 @@ footer img {
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-#produccion img{
+
+#produccion img {
     border: 2px solid black;
     display: flex;
-    
+
 }
 
 #curiosidades h2 {
     padding: 20px;
-    background-image: url('../img/curiosidad.png');
-    background-size: 70px;
+    background:linear-gradient(94deg,#606C38,#606C38, orange) ;
+
     background-repeat: no-repeat;
     background-position: bottom right;
 }
@@ -333,9 +343,10 @@ footer img {
 .tituloFooter {
     font-weight: 700;
     color: #45511c;
-    text-shadow:1px 1px black;
+    text-shadow: 1px 1px black;
     padding-left: 10px;
 }
+
 .valorFooter {
     font-family: 'Ubuntu', sans-serif;
     display: flex;
@@ -344,50 +355,56 @@ footer img {
     width: 600px;
     color: #9c8a11;
     text-align: center;
-    text-shadow:1px 1px black;
+    text-shadow: 1px 1px black;
 
 }
 
-.contenedorcine{
+.contenedorcine {
     aspect-ratio: 16/9;
 }
+
 .flexcinema {
     display: flex;
     justify-content: space-between;
 }
-.caja_multimedia{
+
+.caja_multimedia {
     width: 100%;
     background-color: #283618;
     text-align: center;
     border-radius: 10px;
     padding: 10px;
-    
+
 }
+
 .flexintro {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     flex-direction: row;
-    margin-top: 0;
+  
 }
+
 .flexintro #introtheme {
     top: 0;
-    
+
     box-shadow: 5px 5px 55px rgb(145, 20, 20);
 }
 
 .caja_multimedia iframe {
     border: #283618 10px solid;
 }
-.columnaizq{
+
+.columnaizq {
     display: flex;
     background-color: #606C38;
 }
 
-.columnader{
+.columnader {
     background-color: #606C38;
     display: flex;
-    
+
 }
+
 /* esta funcionalidad la dejo para el mas del 60% de cuota del mercado que es chrome */
 tool-tip {
     position: absolute;
@@ -396,112 +413,182 @@ tool-tip {
     background-color: #054615;
     background-attachment: fixed;
     transition: opacity .3s ease;
-    border-radius: 8px;
-    top:0;
+    border-radius: 2px;
+    top: 0;
     border: #283618 2px solid;
     left: 0;
     margin-left: 107%;
     opacity: 0;
 }
+
 :has(> tool-tip) {
     position: relative;
-   
 }
+
 :has(> tool-tip):hover tool-tip {
     opacity: 1;
     background-color: #054615;
     margin-left: 107%;
-    right:-200px
+    right: -200px
 }
-.estilofooter{
+
+tool-tip div {
+    text-align: center;
+}
+
+tool-tip div p {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(82, 204, 41);
+}
+
+.estilofooter {
     display: flex;
     flex-direction: row;
 
 }
+
 .estiloform {
     display: flex;
     justify-content: center;
 }
+
 form {
     background-color: #283618;
     min-width: 640px;
     max-width: 100%;
     color: whitesmoke;
+    border-radius: 10px;
 }
+
 textarea {
-    background-color: #737d4f;
+    background-color: #737d4f33;
     min-height: 100px;
     text-align: left;
+    border: 1px solid green;
+    border-top: 0;
+    border-right: 0;
     padding: 0.5em;
     min-width: 95%;
     font-size: 1em;
     margin-left: 10px;
     font-family: 'Ubuntu', sans-serif;
     display: flex;
-    color: #054615;
+    color: #9c8a11;
+}
+textarea::placeholder {
+    color:#9c8a11;
+}
+textarea::shadow {
+   background-color: #BC6C25;
+}
+input ::first-letter {
+    background-color: #9c8a11;
 }
 input {
-    display: flex;
     font-family: 'Ubuntu', sans-serif;
-    background-color: #737d4f;
+    background-color: #737d4f33;
     padding: 2px;
-    width: 95%;
+    border: 1px solid green;
+    border-top: 0;
+    border-right: 0;
+    margin-top: 2px;
     margin-left: 15px;
-    color: #054615;
+    color: #9c8a11;
     margin-bottom: 10px;
+    margin-top: 10px;
+    width: 95%;
+} 
+
+input::placeholder {
+    color:#9c8a11;
 }
-#submit {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
-    cursor: pointer;
-    padding: 5px;
-    margin: 0 10px 20px 0;
-    border-radius: 8px 8px 8px 8px;
-    width: 20%;
-    text-align: center;
-}
-#nacimiento {
+[type="date"]{
     width: 30%;
 }
+
+
+
 label {
-    margin-left:12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 12px;
 }
-.cajaInputs {
-    display: block;
-   
+
+
+[type="submit"]{
+    color: #9c8a11;
     font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    display: flex;
+    margin: auto;
     margin-bottom: 10px;
-    padding: 10px;
-  
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid green;
+    background:#45511c;
+    box-shadow: none;
+    border-radius: 50px;
+    max-width: 30%;
+
 }
-.estiloDatos{
+
+[type="checkbox"] {
+    accent-color:#5b6c23;
+    color: green;
+}
+.inline-fielset{
+    margin: 10px 10px 10px 10px;
+    text-align: left;
+    border: 1px solid green;
+}
+.inline-fielset label, .inline-fielset input {
+    display: inline;
+    font-weight: normal;
+    width: inherit;
+}
+.inline-fielset>legend{
+    margin: 0px;
+    font-size: 20px;
+}
+.inline-fielset  img {
+    margin: 10px;
+    margin-bottom: 0;
+    padding: 2px;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.inline-fielset label {
+    margin: 0;
+}
+.estiloDatos {
     background: #606C38;
-   display: flexbox;
-   flex-direction: column;
-   width: 50%;
-   margin-left: 50px;
-   margin-top: 5px;
-   margin-bottom: 5px;
-   box-shadow: 5px 5px 15px rgb(0, 0, 0);
+    display: flexbox;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
 }
+
 .flexbox-container {
-        display: -ms-flex;
-        display: -webkit-flex;
-        display: flex;
-        width: 50%;
-        background: #606C38;
-        margin-left: 50px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        box-shadow: 5px 5px 15px rgb(0, 0, 0);
-    }
-
-.flexbox-container > div {
-    width: 40%;
-    padding: 10px;   
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    width: 50%;
+    background: #606C38;
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
 }
 
-.flexbox-container > div:first-child {
+.flexbox-container>div {
+    width: 40%;
+    padding: 10px;
+}
+
+.flexbox-container>div:first-child {
     margin-right: 20px;
 }
 
@@ -509,9 +596,12 @@ label {
     text-align: center;
     font-size: large;
     color: #9c8a11;
-    text-shadow:1px 1px black;
+    text-shadow: 1px 1px black;
 }
+
 .estiloRegistro {
     font-family: 'Bangers', cursive;
-    text-shadow:1px 1px black;
+    text-shadow: 1px 1px black;
 }
+
+
