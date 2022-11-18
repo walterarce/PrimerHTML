@@ -15,7 +15,9 @@ main {
     max-width: 960px;
     margin: 0px auto;
 }
-
+main{
+    padding-top: 0;
+}
 header img {
     display: inline-block;
 }
@@ -44,33 +46,40 @@ header div {
 
 
 nav {
-    background-image: url(../img/seamless.jpeg);
+    background: linear-gradient(4deg,#DDA15E,rgba(60, 133, 81, 0.663)),url(../img/seamless.jpeg);
     background-color: #283618;
     max-width: 920px;
     display: flex;
+    margin-bottom: 0;
+
 }
 
 nav a {
     padding: 8px;
-    margin: 0;
+    margin: 2px;
+    margin-bottom: 0;
     color: rgb(251, 251, 251);
     text-decoration: none;
     font-size: 14px;
+    border-left:#283618 1px solid;
+    border-top:#283618 1px solid;
     display: inline;
     font-weight: bold;
+    background: linear-gradient(4deg,#DDA15E,rgba(60, 133, 81, 0.663));
+
 
 }
 
 nav a:hover {
     color: #283618;
-    background-color: #BC6C25;
+    background: linear-gradient(90deg,#BC6C25,rgba(60, 133, 81, 0.663)) ;
 
 }
 
 
 .stage {
     color: #283618;
-    background-color: #BC6C25;
+    background: linear-gradient(2deg,#ce711fe0,rgba(60, 133, 81, 0.663)) ;
 }
 
 main a {
@@ -114,15 +123,17 @@ h2 {
     margin: 35px 0px 10px;
     padding: 5px;
     text-transform: capitalize;
-    background:linear-gradient(94deg,#606C38,#606C38,rgb(59 130 79),rgb(60 133 81)) ;
+    background: linear-gradient(2deg,#ce711fe0,rgba(60, 133, 81, 0.663)) ;
     background-size: cover;
     color: white;
-    border: #283618 solid 2px;
+
     padding: 20px;
     max-width: 960px;
     height: 40px;
-    border-radius: 10px;
+
+    border-radius: 0 0 10px 10px;
     margin-top: 0;
+    text-shadow: 2px 2px #283618;
 }
 
 h3 {
@@ -270,57 +281,55 @@ footer img {
 }
 
 #analisiswalter h2 {
-    padding: 20px;
-   
-    background-image: url('../img/fondowalter.png');
-
-    background-repeat: no-repeat;
-    background-position: right;
+    padding: 20px;  
+    background: linear-gradient(4deg,#DDA15E,rgba(60, 133, 81, 0.663)) ,url('../img/fonditoli.png')  no-repeat  right;
+    background-position-y:-5px;
 }
-
 #critica h2 {
     padding: 20px;
-    background-image: url('../img/bannercritica.jpg');
-    background-size: 200px;
-    background-repeat: no-repeat;
-    background-position: right;
+    background: linear-gradient(4deg,#DDA15E,rgba(60, 133, 81, 0.663)) , url('../img/bannercritica.jpg') no-repeat right;
+    background-size: 960px;
+    background-position-y:  35%;
+    width: 920px;
 }
 
 #reparto h2 {
     padding: 20px;
+    background: linear-gradient(4deg,#DDA15E,rgba(60, 133, 81, 0.663)) ,url('../img/fonditoli.png')  no-repeat  right, url(../img/seambackwalter.jpg)  no-repeat right;
     
-    background-image: url('../img/fonditoli.png'), url(../img/seambackwalter.jpg);
-    background:linear-gradient(94deg,#606C38,#606C38,rgb(59 130 79),rgb(60 133 81)) ;
-    background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position-y:  5%;
+    width: 920px;
+}
+
+#bettercallsaul h2{
+    padding: 20px;
+    background: linear-gradient(4deg,#DDA15E,rgba(60, 133, 81, 0.663)) ,url('../img/mejorllamaasaul.jpg')  no-repeat right ;
+    background-size: 960px;
+    background-position-y:  35%;
+    width: 920px;
 }
 
 #produccion h2 {
     padding: 20px;
-    background-image: url('../img/fonditoli.png'), url(../img/seambackwalter.jpg);
-    background-size: 70px;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-}
-
-#produccion img {
-    border: 2px solid black;
-    display: flex;
+    background:linear-gradient(4deg,#DDA15E,rgba(60, 133, 81, 0.663)) ,url(../img/rodajebreakingbad.jpeg) no-repeat left;
+    background-size: 960px;
+    background-position-y:  35%;
+    width: 920px;
 
 }
 
 #curiosidades h2 {
     padding: 20px;
-    background:linear-gradient(94deg,#606C38,#606C38, orange) ;
-
-    background-repeat: no-repeat;
-    background-position: bottom right;
+    background:linear-gradient(4deg,#DDA15E,rgba(60, 133, 81, 0.663)) ,url(../img/curiosidad.png) no-repeat  right;
+    background-position-y:  35%;
+    width: 920px;
+    
 }
 
 .tablagen {
     display: table;
     margin: auto;
-    color: #DDA15E;
+    color: DDA15E;
     font-weight: 600;
 }
 
@@ -601,7 +610,7 @@ label {
 
 .estiloRegistro {
     font-family: 'Bangers', cursive;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 2px black;
 }
 
 
