@@ -15,9 +15,11 @@ main {
     max-width: 960px;
     margin: 0px auto;
 }
-main{
+
+main {
     padding-top: 0;
 }
+
 header img {
     display: inline-block;
 }
@@ -46,7 +48,7 @@ header div {
 
 
 nav {
-    background: linear-gradient(4deg,#DDA15E,rgba(60, 133, 81, 0.663)),url(../img/seamless.jpeg);
+    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/seamless.jpeg);
     background-color: #283618;
     max-width: 920px;
     display: flex;
@@ -61,25 +63,25 @@ nav a {
     color: rgb(251, 251, 251);
     text-decoration: none;
     font-size: 14px;
-    border-left:#283618 1px solid;
-    border-top:#283618 1px solid;
+    border-left: #283618 1px solid;
+    border-top: #283618 1px solid;
     display: inline;
     font-weight: bold;
-    background: linear-gradient(4deg,#DDA15E,rgba(60, 133, 81, 0.663));
+    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663));
 
 
 }
 
 nav a:hover {
     color: #283618;
-    background: linear-gradient(90deg,#BC6C25,rgba(60, 133, 81, 0.663)) ;
+    background: linear-gradient(90deg, #BC6C25, rgba(60, 133, 81, 0.663));
 
 }
 
 
 .stage {
     color: #283618;
-    background: linear-gradient(2deg,#ce711fe0,rgba(60, 133, 81, 0.663)) ;
+    background: linear-gradient(2deg, #ce711fe0, rgba(60, 133, 81, 0.663));
 }
 
 main a {
@@ -96,7 +98,7 @@ main a:hover {
 p {
     color: #606C38;
     text-indent: 35px;
-    line-height: 2rem;
+    line-height: 1.8rem;
 }
 
 q {
@@ -123,14 +125,11 @@ h2 {
     margin: 35px 0px 10px;
     padding: 5px;
     text-transform: capitalize;
-    background: linear-gradient(2deg,#ce711fe0,rgba(60, 133, 81, 0.663)) ;
-    background-size: cover;
+    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/seambackwalter.jpg);
     color: white;
-
     padding: 20px;
     max-width: 960px;
     height: 40px;
-
     border-radius: 0 0 10px 10px;
     margin-top: 0;
     text-shadow: 2px 2px #283618;
@@ -172,7 +171,7 @@ h5 {
 }
 
 blockquote {
-    color: wheat;
+    color: #BC6C25;
     font-style: italic;
 }
 
@@ -213,8 +212,8 @@ figcaption {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position-x: 70%;
-    background-position-y: 135%;
+    background-position-x: 75%;
+    background-position-y: 185%;
 }
 
 ul {
@@ -281,56 +280,57 @@ footer img {
 }
 
 #analisiswalter h2 {
-    padding: 20px;  
-    background: linear-gradient(4deg,#DDA15E,rgba(60, 133, 81, 0.663)) ,url('../img/fonditoli.png')  no-repeat  right;
-    background-position-y:-5px;
+    padding: 20px;
+    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url('../img/fonditoli.png') no-repeat right, url(../img/seambackwalter.jpg);
+    background-position-y: -5px;
 }
+
 #critica h2 {
     padding: 20px;
-    background: linear-gradient(4deg,#DDA15E,rgba(60, 133, 81, 0.663)) , url('../img/bannercritica.jpg') no-repeat right;
+    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url('../img/bannercritica.jpg') no-repeat right;
     background-size: 960px;
-    background-position-y:  35%;
+    background-position-y: 35%;
     width: 920px;
 }
 
 #reparto h2 {
     padding: 20px;
-    background: linear-gradient(4deg,#DDA15E,rgba(60, 133, 81, 0.663)) ,url('../img/fonditoli.png')  no-repeat  right, url(../img/seambackwalter.jpg)  no-repeat right;
-    
-    background-position-y:  5%;
+    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url('../img/fonditoli.png') no-repeat right, url(../img/seambackwalter.jpg);
+
+    background-position-y: 5%;
     width: 920px;
 }
 
-#bettercallsaul h2{
+#bettercallsaul h2 {
     padding: 20px;
-    background: linear-gradient(4deg,#DDA15E,rgba(60, 133, 81, 0.663)) ,url('../img/mejorllamaasaul.jpg')  no-repeat right ;
+    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url('../img/mejorllamaasaul.jpg') no-repeat right, url(../img/seambackwalter.jpg);
     background-size: 960px;
-    background-position-y:  35%;
+    background-position-y: 35%;
     width: 920px;
 }
 
 #produccion h2 {
     padding: 20px;
-    background:linear-gradient(4deg,#DDA15E,rgba(60, 133, 81, 0.663)) ,url(../img/rodajebreakingbad.jpeg) no-repeat left;
+    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/rodajebreakingbad.jpeg) no-repeat left, url(../img/seambackwalter.jpg);
     background-size: 960px;
-    background-position-y:  35%;
+    background-position-y: 35%;
     width: 920px;
 
 }
 
 #curiosidades h2 {
     padding: 20px;
-    background:linear-gradient(4deg,#DDA15E,rgba(60, 133, 81, 0.663)) ,url(../img/curiosidad.png) no-repeat  right;
-    background-position-y:  35%;
+    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/curiosidad.png) no-repeat right, url(../img/seambackwalter.jpg);
+    background-position-y: 35%;
     width: 920px;
-    
+
 }
 
 .tablagen {
     display: table;
     margin: auto;
-    color: DDA15E;
-    font-weight: 600;
+    color: #DDA15E;
+    font-weight: 600px;
 }
 
 .fila {
@@ -378,9 +378,11 @@ footer img {
 }
 
 .caja_multimedia {
-    width: 100%;
+    width: 60%;
+    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/seambackwalter.jpg);
     background-color: #283618;
     text-align: center;
+    margin: auto;
     border-radius: 10px;
     padding: 10px;
 
@@ -390,13 +392,16 @@ footer img {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-  
+
 }
 
 .flexintro #introtheme {
     top: 0;
-
     box-shadow: 5px 5px 55px rgb(145, 20, 20);
+}
+
+#introthem h2 {
+    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/seambackwalter.jpg);
 }
 
 .caja_multimedia iframe {
@@ -462,6 +467,7 @@ tool-tip div p {
 }
 
 form {
+    background: linear-gradient(4deg, #dda25ec8, rgba(60, 133, 81, 0.815)), url(../img/seambackwalter.jpg);
     background-color: #283618;
     min-width: 640px;
     max-width: 100%;
@@ -470,7 +476,7 @@ form {
 }
 
 textarea {
-    background-color: #737d4f33;
+    background-color: #283618;
     min-height: 100px;
     text-align: left;
     border: 1px solid green;
@@ -484,18 +490,22 @@ textarea {
     display: flex;
     color: #9c8a11;
 }
+
 textarea::placeholder {
-    color:#9c8a11;
+    color: #9c8a11;
 }
+
 textarea::shadow {
-   background-color: #BC6C25;
+    background-color: #BC6C25;
 }
+
 input ::first-letter {
     background-color: #9c8a11;
 }
+
 input {
     font-family: 'Ubuntu', sans-serif;
-    background-color: #737d4f33;
+    background-color: #283618;
     padding: 2px;
     border: 1px solid green;
     border-top: 0;
@@ -506,12 +516,13 @@ input {
     margin-bottom: 10px;
     margin-top: 10px;
     width: 95%;
-} 
+}
 
 input::placeholder {
-    color:#9c8a11;
+    color: #9c8a11;
 }
-[type="date"]{
+
+[type="date"] {
     width: 30%;
 }
 
@@ -524,7 +535,7 @@ label {
 }
 
 
-[type="submit"]{
+[type="submit"] {
     color: #9c8a11;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
@@ -534,7 +545,7 @@ label {
     justify-content: center;
     padding: 5px;
     border: 1px solid green;
-    background:#45511c;
+    background: #45511c;
     box-shadow: none;
     border-radius: 50px;
     max-width: 30%;
@@ -542,33 +553,40 @@ label {
 }
 
 [type="checkbox"] {
-    accent-color:#5b6c23;
+    accent-color: #5b6c23;
     color: green;
 }
-.inline-fielset{
+
+.inline-fielset {
     margin: 10px 10px 10px 10px;
     text-align: left;
     border: 1px solid green;
 }
-.inline-fielset label, .inline-fielset input {
+
+.inline-fielset label,
+.inline-fielset input {
     display: inline;
     font-weight: normal;
     width: inherit;
 }
-.inline-fielset>legend{
+
+.inline-fielset>legend {
     margin: 0px;
     font-size: 20px;
 }
-.inline-fielset  img {
+
+.inline-fielset img {
     margin: 10px;
     margin-bottom: 0;
     padding: 2px;
     border: 2px solid green;
     border-radius: 5px;
 }
+
 .inline-fielset label {
     margin: 0;
 }
+
 .estiloDatos {
     background: #606C38;
     display: flexbox;
@@ -611,6 +629,17 @@ label {
 .estiloRegistro {
     font-family: 'Bangers', cursive;
     text-shadow: 2px 2px black;
+    padding: 20px;
+    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/seambackwalter.jpg);
+    background-position-y: 35%;
+    width: 920px;
 }
 
+.bettercallsaulstyle {
+    margin: auto;
+}
 
+.bettercallsaulstyle img {
+    border-radius: 5px;
+    border: green 2px solid;
+}
