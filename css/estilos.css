@@ -252,6 +252,7 @@ footer {
 footer div {
     align-items: flex-start;
     display: inline-block;
+  
 
 }
 
@@ -287,8 +288,7 @@ footer img {
 
 #critica h2 {
     padding: 20px;
-    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url('../img/bannercritica.jpg') no-repeat right;
-    background-size: 960px;
+    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/bannercritica.jpg) no-repeat right, url(../img/seambackwalter.jpg);
     background-position-y: 35%;
     width: 920px;
 }
@@ -311,10 +311,10 @@ footer img {
 
 #produccion h2 {
     padding: 20px;
-    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/rodajebreakingbad.jpeg) no-repeat left, url(../img/seambackwalter.jpg);
-    background-size: 960px;
+    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/rodajebreakingbad.jpeg) no-repeat right, url(../img/seambackwalter.jpg);
     background-position-y: 35%;
     width: 920px;
+
 
 }
 
@@ -611,8 +611,9 @@ label {
 }
 
 .flexbox-container>div {
-    width: 40%;
+    width: 50%;
     padding: 10px;
+    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/seambackwalter.jpg);
 }
 
 .flexbox-container>div:first-child {
