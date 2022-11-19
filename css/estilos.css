@@ -251,7 +251,7 @@ footer {
 footer div {
     align-items: flex-start;
     display: inline-block;
-  
+
 
 }
 
@@ -452,6 +452,7 @@ tool-tip div p {
     flex-direction: row;
     background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/seambackwalter.jpg);
     margin-bottom: 10px;
+    border-radius: 10px 10px 2px 2px;
 
 }
 
