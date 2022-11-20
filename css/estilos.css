@@ -274,8 +274,9 @@ footer img {
 
 #analisiswalter h2 {
     padding: 20px;
-    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url('../img/fonditoli.png') no-repeat right, url(../img/seambackwalter.jpg);
-    background-position-y: -5px;
+    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/fondowalter.png) no-repeat right, url(../img/seambackwalter.jpg);
+    background-position-y: 35%;
+    width: 920px;
 }
 
 #critica h2 {
@@ -295,8 +296,7 @@ footer img {
 
 #bettercallsaul h2 {
     padding: 20px;
-    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url('../img/mejorllamaasaul.jpg') no-repeat right, url(../img/seambackwalter.jpg);
-    background-size: 960px;
+    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url('../img/mejorllamaasaul100.jpg') no-repeat right, url(../img/seambackwalter.jpg);
     background-position-y: 35%;
     width: 920px;
 }
@@ -602,7 +602,6 @@ label {
 
 .flexbox-container>div {
     width: 50%;
-  
 }
 
 .flexbox-container>div:first-child {
