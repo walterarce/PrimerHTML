@@ -365,6 +365,8 @@ footer img {
 }
 
 .flexcinema {
+    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/seambackwalter.jpg);
+    background-color: #283618;
     display: flex;
     justify-content: space-between;
 }
