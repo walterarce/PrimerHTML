@@ -117,6 +117,10 @@ em {
     font-weight: 700;
 }
 
+iframe {
+    border: none;
+}
+
 h1 {
     display: none;
 }
@@ -135,6 +139,7 @@ h2 {
     text-shadow: 2px 2px #283618;
     display: flex;
 }
+
 h2 div {
     margin-left: 150px;
 }
@@ -160,7 +165,7 @@ h5 {
     color: #283618;
 }
 
- .estiloFuenteLista {
+.estiloFuenteLista {
     margin: 20px;
 
 }
@@ -172,7 +177,7 @@ h5 {
     text-indent: 15px;
     font-family: 'Ubuntu', sans-serif;
     margin-top: 0;
-} 
+}
 
 blockquote {
     color: #BC6C25;
@@ -273,7 +278,7 @@ footer img {
     margin-left: 40px;
     margin-right: 20px;
     border-radius: 50%;
-    box-shadow: 1px 2px 11px 2px  rgba(60, 133, 81, 0.663);
+    box-shadow: 1px 2px 11px 2px rgba(10, 10, 10, 0.663);
 }
 
 #analisiswalter h2 {
@@ -347,7 +352,7 @@ footer img {
 
 .tituloFooter {
     font-weight: 700;
-    color:#BC6C25;
+    color: #BC6C25;
     text-shadow: 1px 1px black;
     padding-left: 10px;
 }
@@ -358,7 +363,7 @@ footer img {
     padding: 12px;
     font-size: small;
     width: 600px;
-    color:#bc6b25a0;
+    color: #bc6b25a0;
     text-align: center;
     text-shadow: 1px 1px black;
 
@@ -370,39 +375,40 @@ footer img {
     background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/seambackwalter.jpg);
     display: flex;
     justify-content: space-between;
-    
+
 }
+
 .flexcinema div {
     background: url(../img/tvfondo.png) center no-repeat;
 
 }
+
 .flexcinema p {
     font-family: 'Ubuntu', cursive;
     font-size: 16px;
     line-height: 1.6rem;
     background-color: rgba(60, 133, 81, 0.663);
-    color:  #DDA15E;
-    
+    color: #DDA15E;
+
     text-shadow: 2px 2px 2px black;
-    
+
 }
+
 .flexcinema div iframe {
 
-border-radius: 2%;    
-max-width: 199px;
-min-height: 150px;
-border-color: 1px solid #054615;
-box-shadow: 1px 1px 1px 1px black;
-margin-top: 25px;
-margin-bottom: 79px;
-margin-right: 55px;
+    border-radius: 2%;
+    max-width: 199px;
+    min-height: 150px;
+    box-shadow: 1px 1px 1px 1px black;
+    margin-top: 25px;
+    margin-bottom: 79px;
+    margin-right: 55px;
 
 }
 
-.caja_multimedia 
-{
+.caja_multimedia {
     width: 80%;
-    
+
     background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/seambackwalter.jpg);
     background-color: #283618;
     border-radius: 10px;
@@ -414,7 +420,7 @@ margin-right: 55px;
 }
 
 
-.caja_multimedia  iframe{
+.caja_multimedia iframe {
     background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/seambackwalter.jpg);
     aspect-ratio: 16 / 9;
     height: 250px;
@@ -455,7 +461,7 @@ tool-tip {
     opacity: 1;
     background-color: #054615;
     margin-left: 107%;
-    top:-25px;
+    top: -25px;
     right: -200px
 }
 
@@ -638,6 +644,7 @@ label {
 
 .estiloRegistro {
     font-family: 'Bangers', cursive;
+    font-size: x-large;
     text-shadow: 2px 2px black;
     padding: 20px;
     background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/seambackwalter.jpg);
@@ -653,6 +660,7 @@ label {
     border-radius: 5px;
     border: green 2px solid;
 }
+
 .estiloTituloLista {
     display: block;
     font-size: large;
@@ -661,7 +669,8 @@ label {
     color: #BC6C25;
     text-shadow: 2px 2px 2px black;
 }
-.estiloSubTituloLista  {
+
+.estiloSubTituloLista {
     display: block;
     margin: 0;
     font-weight: 700;
