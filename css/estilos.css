@@ -384,13 +384,15 @@ footer img {
 }
 .flexcinema div iframe {
 
-border-radius: 4%;    
+border-radius: 2%;    
 max-width: 199px;
-max-height: 147px;
-border-color: 2px solid #054615;
-box-shadow: 2px 2px 2px 2px black;
-margin-bottom: 99px;
-margin-right: 51px;
+min-height: 150px;
+border-color: 1px solid #054615;
+box-shadow: 1px 1px 1px 1px black;
+margin-top: 25px;
+margin-bottom: 79px;
+margin-right: 55px;
+aspect-ratio: 16 / 9;
 }
 
 .caja_multimedia {
