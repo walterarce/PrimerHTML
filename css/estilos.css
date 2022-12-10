@@ -4,14 +4,9 @@ body {
     padding: 0;
 }
 
-body:hover .block1 {
-    background-color: red;
-}
-
 header,
-nav,
 main {
-    padding: 10px 20px;
+    
     max-width: 960px;
     margin: 0px auto;
 }
@@ -48,28 +43,26 @@ header div {
 
 
 nav {
-    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/seamless.jpeg);
-    background-color: #283618;
-    max-width: 920px;
     display: flex;
-    margin-bottom: 0;
-
+    max-width: 960px;
+    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663));
+    background-color: #283618;
+    height: 40px;
+    margin: auto;
 }
 
 nav a {
-    padding: 8px;
-    margin: 2px;
-    margin-bottom: 0;
+    padding: 8px 8px 8px 8px;
+    margin: auto;
+    
     color: rgb(251, 251, 251);
     text-decoration: none;
     font-size: 14px;
     border-left: #283618 1px solid;
     border-top: #283618 1px solid;
-    display: inline;
     font-weight: bold;
+    height: 20px;
     background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663));
-
-
 }
 
 nav a:hover {
@@ -119,7 +112,9 @@ em {
 
 iframe {
     border: none;
+    width: 100%;
 }
+
 
 h1 {
     display: none;
@@ -134,7 +129,6 @@ h2 {
     padding: 20px;
     max-width: 960px;
     height: 40px;
-    border-radius: 0 0 10px 10px;
     margin-top: 0;
     text-shadow: 2px 2px #283618;
     display: flex;
@@ -249,36 +243,65 @@ ul li:nth-child(2n -1) {
 
 
 footer {
-    text-align: left;
     max-width: 960px;
+    height: 300px;
     background-color: whitesmoke;
     margin: auto;
-
-
-}
-
-footer div {
-    align-items: flex-start;
-    display: inline-block;
-
+    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/seambackwalter.jpg);
 
 }
 
-footer p {
-    background-color: #fefae0aa;
-    font-weight: 600;
-    font-size: 14px;
-    color: black;
-    background-color: #BC6C25;
 
+.contenedor_footer{
+    width: 960px;
 }
+.contenedor_imagen {
+    display: flex;
+    top:2820px;
+    left: 500px;
+    background: url('../img/ficha.png') ;
+    background-size:contain;
+    width: 350px;
+    border: 2px  solid black;
+    margin: auto;
+}
+.contenedor_imagen img{
+    margin: auto;
+    left: 100px;
+    margin-top: 20px;
+}
+.fichawalter{
+    z-index: 1;
+    max-width: 250px;
+    margin: auto;
+    margin-bottom: 200px;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    background: url('../img/pizzarra.png');
+    color: white;
+    border: 2px solid;
+    font-size: 0.8rem;
+}
+.fichawalter p {
+    text-align: center;
+    position:block;
+    color:whitesmoke;
+    line-height:15px;
+    
+}
+.fichawalter_code {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    padding-right: 20px;
+}
+.estilofooter {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/seambackwalter.jpg);
+    margin-bottom: 10px;
+    border-radius: 10px 10px 2px 2px;
 
-footer img {
-    margin-top: 5px;
-    margin-left: 40px;
-    margin-right: 20px;
-    border-radius: 50%;
-    box-shadow: 1px 2px 11px 2px rgba(10, 10, 10, 0.663);
 }
 
 #analisiswalter h2 {
@@ -474,14 +497,6 @@ tool-tip div p {
     background-color: rgb(82, 204, 41);
 }
 
-.estilofooter {
-    display: flex;
-    flex-direction: row;
-    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/seambackwalter.jpg);
-    margin-bottom: 10px;
-    border-radius: 10px 10px 2px 2px;
-
-}
 
 .estiloform {
     display: flex;
@@ -628,9 +643,12 @@ label {
 }
 
 .flexbox-container>div {
-    width: 50%;
+    
+    width: 40%;
 }
-
+.flexbox-container img {
+    padding: 20px;
+}
 .flexbox-container>div:first-child {
     margin-right: 20px;
 }
@@ -644,12 +662,15 @@ label {
 
 .estiloRegistro {
     font-family: 'Bangers', cursive;
-    font-size: x-large;
-    text-shadow: 2px 2px black;
+    font-size: x-large;    
+    
     padding: 20px;
     background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/seambackwalter.jpg);
-    background-position-y: 35%;
     width: 920px;
+}
+.estiloRegistro p {
+    color: white;
+    text-shadow: 1px 1px black;
 }
 
 .bettercallsaulstyle {
