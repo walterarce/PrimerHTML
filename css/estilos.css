@@ -49,12 +49,17 @@ nav {
     background-color: #283618;
     height: 40px;
     margin: auto;
+    
 }
 
+nav div {
+    margin: auto;
+}
 nav a {
     padding: 8px 8px 8px 8px;
-    margin: auto;
-    
+    margin-left: 0;
+    margin-right: 5px;
+    margin-bottom: 0;
     color: rgb(251, 251, 251);
     text-decoration: none;
     font-size: 14px;
@@ -121,7 +126,8 @@ h1 {
 }
 
 h2 {
-    margin: 35px 0px 10px;
+    
+    margin: 35px 0 10px 0;
     padding: 5px;
     text-transform: capitalize;
     background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/seambackwalter.jpg);
@@ -244,42 +250,43 @@ ul li:nth-child(2n -1) {
 
 footer {
     max-width: 960px;
-    height: 300px;
+    height: 450px;
     background-color: whitesmoke;
     margin: auto;
     background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/seambackwalter.jpg);
-
+    
 }
 
 
 .contenedor_footer{
     width: 960px;
+    padding-top: 20px;
 }
 .contenedor_imagen {
-    display: flex;
-    top:2820px;
-    left: 500px;
+    display: flex;    
     background: url('../img/ficha.png') ;
     background-size:contain;
-    width: 350px;
+    width: 380px;
     border: 2px  solid black;
     margin: auto;
+    
+    
 }
 .contenedor_imagen img{
-    margin: auto;
-    left: 100px;
-    margin-top: 20px;
+    margin: auto;    
+    margin-top: 10px;
+    
+    
 }
 .fichawalter{
-    z-index: 1;
-    max-width: 250px;
+    z-index: 1; 
     margin: auto;
-    margin-bottom: 200px;
     background-color: black;
     font-family: 'Courier New', Courier, monospace;
     background: url('../img/pizzarra.png');
     color: white;
-    border: 2px solid;
+    border-bottom : 2px  solid;
+    
     font-size: 0.8rem;
 }
 .fichawalter p {
@@ -287,21 +294,14 @@ footer {
     position:block;
     color:whitesmoke;
     line-height:15px;
+    padding-top: 10px;
     
 }
 .fichawalter_code {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-align: center;
     font-weight: bold;
-    padding-right: 20px;
-}
-.estilofooter {
-    display: flex;
-    flex-direction: row;
-    background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/seambackwalter.jpg);
-    margin-bottom: 10px;
-    border-radius: 10px 10px 2px 2px;
-
+    padding-top: 20px;
 }
 
 #analisiswalter h2 {
@@ -430,8 +430,7 @@ footer {
 }
 
 .caja_multimedia {
-    width: 80%;
-
+    width: 50%;
     background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/seambackwalter.jpg);
     background-color: #283618;
     border-radius: 10px;
@@ -440,10 +439,12 @@ footer {
     margin: auto;
     text-align: center;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 
 .caja_multimedia iframe {
+    width: 100%;
     background: linear-gradient(4deg, #DDA15E, rgba(60, 133, 81, 0.663)), url(../img/seambackwalter.jpg);
     aspect-ratio: 16 / 9;
     height: 250px;
