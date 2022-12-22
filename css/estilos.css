@@ -145,7 +145,7 @@ h2 div {
 }
 
 h3 {
-
+    font-size: 1.2rem;
     color: rgb(19, 59, 14);
     padding: 15px;
     margin: 10px;
@@ -512,7 +512,10 @@ form {
     color: whitesmoke;
     border-radius: 10px;
 }
-
+.contenedor_formulario {
+    
+    margin-top: 20px;
+}
 textarea {
     background-color: #283618;
     min-height: 100px;
