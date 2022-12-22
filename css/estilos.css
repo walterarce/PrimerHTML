@@ -217,14 +217,15 @@ figcaption {
 }
 
 .fondo_lista_reparto {
-    background-image: url(../img/bbchfondo.png), url(../img/seambackwalter.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: url(../img/bbchfondo.png) center no-repeat fixed, url(../img/seambackwalter.jpg);
     background-position-x: 75%;
     background-position-y: 185%;
 }
-
+.textoh3 {
+    color: #BC6C25;
+    text-shadow: 2px 2px black ;
+    font-size: 1.5rem;
+}
 ul {
     padding: 0;
     list-style: none;
@@ -689,10 +690,11 @@ label {
 .estiloTituloLista {
     display: block;
     font-size: large;
+    font-weight: 600;
     margin: 0;
     padding: 0;
     color: #BC6C25;
-    text-shadow: 2px 2px 2px black;
+    
 }
 
 .estiloSubTituloLista {
@@ -700,5 +702,5 @@ label {
     margin: 0;
     font-weight: 700;
     color: #283618;
-    text-shadow: 2px 2px 2px rgb(222, 210, 210);
+
 }
